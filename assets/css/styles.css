@@ -1,5 +1,8 @@
-  .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+ 
+ *{
+    box-sizing:border-box;
+ }
+ 
 
     body{
         font-family: 'Inter', sans-serif;
@@ -13,7 +16,7 @@
             flex:50%;
         }
         .testimonial-container{
-        margin:50px auto;
+        margin:120px auto;
         padding: 30px;
         /* border:solid 1px black; */
         width:1400px;
@@ -31,9 +34,17 @@
     left: -115px;
     padding: 30px;
     font-size:32px;
+    width:65%;
+    height:35%;
     }
 
     .ux-info{
       font-size:32px;  
       font-family: 'Inter', sans-serif;
     }
+
+
+    /* Footer */
+    
+ .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
