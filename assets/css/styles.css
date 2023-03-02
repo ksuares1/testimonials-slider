@@ -1,0 +1,14 @@
+  .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        font-size:32px;
+        font-family: 'Inter', sans-serif;
+    }
+
+
+
+    main{
+        margin:20px;
+        padding: 40px;
+    }
