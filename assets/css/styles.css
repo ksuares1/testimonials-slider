@@ -5,8 +5,13 @@
         font-family: 'Inter', sans-serif;
     }
 
+    .row{
+        display:flex;
+    }
 
-
+        .col{
+            flex:50%;
+        }
         .testimonial-container{
         margin:50px auto;
         padding: 30px;
