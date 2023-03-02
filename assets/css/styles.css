@@ -9,6 +9,14 @@
 
 
     main{
-        margin:20px;
-        padding: 40px;
+        margin:50px auto;
+        padding: 30px;
+        border:solid 1px black;
+        width:1000px;
+        height:35%;
+    }
+    
+    .pattern-bg{
+        width:50%;
+        height:35%;
     }
