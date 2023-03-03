@@ -8,6 +8,13 @@
         font-family: 'Inter', sans-serif;
     }
 
+    
+    main{
+        /* border:1px solid black; */
+        width:1400px;
+        height:700px;
+        margin:20px;
+    }
 
         .col{
             flex:50%;
@@ -25,23 +32,7 @@
         justify-content: center;
         
    }
-/*     
-    .tanya{
-    width: 500px;
-    height: 480px;
-    position: absolute;
-    top: -10px;
-    right: 50px;
-    
-    margin: 50px;
-    } */
 
-    main{
-        /* border:1px solid black; */
-        width:1400px;
-        height:700px;
-        margin:20px;
-    }
 
     .testimonials{
     position: fixed;
@@ -83,26 +74,25 @@
     }
   
    
-    /* .pattern-bg{
-        position:absolute;
-        top: -10px;
-        right:-30px;
-    } */
 
     .tanya{
          position:absolute;
         top: -10px;
         right:-30px;
+        width:35%;
+        border-radius: 8px;
+        margin:30px;
+        padding:40px;
     }
 
     .pattern-bg{
-    width: 500px;
-    height: 480px;
+    width:600px;
+    height:500px;
     position: absolute;
-    top: -10px;
-    right: 50px;
-    /* padding: 5px; */
-    margin: 50px;
+    top: 10px;
+    right:50px;
+    left:800px;
+    margin:0 auto;
     }
     
 
