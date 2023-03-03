@@ -70,7 +70,8 @@
 
     .name{
         color:hsl(240, 38%, 20%);
-        font-weight: 500;
+        font-weight: 300;
+           font-size:32px;  
     }
     .bg-pic{
         background-repeat: no-repeat;
