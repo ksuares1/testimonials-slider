@@ -16,30 +16,37 @@
         .testimonial-container{
         margin:0 auto;
         padding: 30px;
+        position:fixed;
+        top:10px;
         /* border:solid 1px black; */
-        width:1023px;
+        width:1400px;
         height:900px;
+        display:flex;
+        justify-content: center;
+        
    }
     
     .tanya{
-        width:500px;
-        height:460px;
-        position: fixed;
-        top:-10px;
-        right:350px;
-        padding:5px;
-        margin:50px;
-        border-radius:10px;
+    width: 500px;
+    height: 480px;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    /* padding: 5px; */
+    margin: 50px;
     }
 
-    /* main{
-        border:1px solid black;
-    } */
+    main{
+        /* border:1px solid black; */
+        width:1400px;
+        height:700px;
+        margin:20px;
+    }
 
     .testimonials{
     position: fixed;
     top: -10px;
-    left: 30px;
+    left:100px;
     padding: 45px;
     font-size:32px;
     width:47%;
@@ -54,8 +61,10 @@
     .quotes-pic{
         position:fixed;
         top: -10px;
-        left:150px;
+        left:210px;
         padding:20px;
+        height:25%;
+        width:10%;
     }
 
 
@@ -77,7 +86,15 @@
         background-repeat: no-repeat;
         background-image: url("../images/pattern-bg.svg");
     }
+   
+    /* .pattern-bg{
+        position:absolute;
+    } */
 
+        .bg-pic{
+            background-image: url("../images/pattern-bg.svg");
+            background-repeat: no-repeat;
+        }
     .user-statement{
         position:fixed;
     }
@@ -86,13 +103,10 @@
       font-family: 'Inter', sans-serif;
       position:fixed;
       top: -10px;
-      left: -250px;
+      left: -190px;
       margin:320px;
     }
 
-    main{
-        margin:20px;
-    }
 
     /* Footer */
     
