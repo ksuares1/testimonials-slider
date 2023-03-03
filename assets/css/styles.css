@@ -25,16 +25,16 @@
         justify-content: center;
         
    }
-    
+/*     
     .tanya{
     width: 500px;
     height: 480px;
     position: absolute;
     top: -10px;
     right: 50px;
-    /* padding: 5px; */
+    
     margin: 50px;
-    }
+    } */
 
     main{
         /* border:1px solid black; */
@@ -81,19 +81,35 @@
         font-weight: 300;
            font-size:32px;  
     }
-    .bg-pic{
-        background-repeat: no-repeat;
-        background-image: url("../images/pattern-bg.svg");
-    }
+  
    
     /* .pattern-bg{
         position:absolute;
+        top: -10px;
+        right:-30px;
     } */
 
-        .bg-pic{
+    .tanya{
+         position:absolute;
+        top: -10px;
+        right:-30px;
+    }
+
+    .pattern-bg{
+    width: 500px;
+    height: 480px;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    /* padding: 5px; */
+    margin: 50px;
+    }
+    
+
+        /* .bg-pic{
             background-image: url("../images/pattern-bg.svg");
             background-repeat: no-repeat;
-        }
+        } */
     .user-statement{
         position:fixed;
     }
