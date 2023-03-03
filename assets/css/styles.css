@@ -73,13 +73,16 @@
         background-image: url("../images/pattern-bg.svg");
     }
 
-
+    .user-statement{
+        position:fixed;
+    }
     .ux-info{
       font-size:32px;  
       font-family: 'Inter', sans-serif;
-      position: relative;
+      position:fixed;
       top: -10px;
       left: -250px;
+      margin:320px;
     }
 
     main{
