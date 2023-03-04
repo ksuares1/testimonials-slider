@@ -89,6 +89,9 @@
     padding: 40px;
     }
 
+    .slide-2{
+        display: none;
+    }
     .pattern-bg{
     width:600px;
     height:500px;
