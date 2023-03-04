@@ -6,7 +6,7 @@
 
     body{
         font-family: 'Inter', sans-serif;
-        min-height: 100vh;
+      
     }
 
     
@@ -15,8 +15,11 @@
         width:1400px;
         height:700px;
         margin:20px;
+        min-height: 100vh;
+        padding:30px;
     }
 
+      
         .col{
             flex:50%;
         }
@@ -76,7 +79,7 @@
   
    
 
-    .tanya{
+    .tanya , .john{
     position: absolute;
     top: -10px;
     right: 80px;
@@ -104,7 +107,7 @@
     .user-statement{
         position:fixed;
     }
-    .ux-info{
+    .info{
       font-size:32px;  
       font-family: 'Inter', sans-serif;
       position:fixed;
@@ -113,6 +116,50 @@
       margin:320px;
     }
 
+    .btn  .prev  .next{
+  display: flex;
+  position: relative;
+  z-index: 999;
+  top: 625px;
+  left: -797px;
+  background: #ffffff;
+  box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+  border-radius: 28px;
+  width: 112px;
+  height: 56px;
+    }
+
+
+
+    .user-info-1{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height, or 190% */
+  position: absolute;
+  color: #202047;
+  top: 530px;
+  left: 165px;
+  text-align: center;
+  color: #202047;
+    }
+
+    .user-info-2{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height, or 190% */
+  position: absolute;
+  top: 530px;
+  left: 312px;
+  color: #b9b9ce;
+   text-align: center;
+    color: #b9b9ce;
+    }
 
     /* Footer */
     
